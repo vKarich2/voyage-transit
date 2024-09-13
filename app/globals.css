@@ -4,24 +4,26 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --foreground: #2E3840;
+	--text: #617686;
+	--accent: #F43754;
+	--additional: #A6D0DD;
 }
 
 body {
+	overflow-x: hidden;
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+a {
+  text-decoration: none;
+}
+
+li{
+	transition: all 0.3s ease-in-out;
+}
+
+li:hover{
+	color: var(--accent);
 }

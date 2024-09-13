@@ -10,6 +10,9 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        text: "var(--text)",
+        accent: "var(--accent)",
+        additional: "var(--additional)",
       },
     },
   },
